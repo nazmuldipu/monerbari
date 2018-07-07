@@ -4,12 +4,12 @@
 <head>
   <!-- Google Tag Manager -->
   <script>(function (w, d, s, l, i) {
-    w[l] = w[l] || []; w[l].push({
-      'gtm.start':
-        new Date().getTime(), event: 'gtm.js'
-    }); var f = d.getElementsByTagName(s)[0],
-      j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
-        'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+      w[l] = w[l] || []; w[l].push({
+        'gtm.start':
+          new Date().getTime(), event: 'gtm.js'
+      }); var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+          'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
     })(window, document, 'script', 'dataLayer', 'GTM-TGWM3TS');</script>
   <!-- End Google Tag Manager -->
 
@@ -133,6 +133,20 @@
 <link rel="stylesheet" href="styles.123de2623f6fe0f67ed2.css"></head>
 
 <body>
+  <!-- Load Facebook SDK for JavaScript -->
+  <div id="fb-root"></div>
+  <script>(function (d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js#xfbml=1&version=v2.12&autoLogAppEvents=1';
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+
+  <!-- Your customer chat code -->
+  <div class="fb-customerchat" attribution=setup_tool page_id="652090935148599" theme_color="#54104d" logged_in_greeting="হ্যালো, আমরা কিভাবে আপনাকে সাহায্য করতে পারি?"
+    logged_out_greeting="হ্যালো, আমরা কিভাবে আপনাকে সাহায্য করতে পারি?">
+  </div>
   <!-- Google Tag Manager (noscript) -->
   <noscript>
     <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TGWM3TS" height="0" width="0" style="display:none;visibility:hidden"></iframe>
@@ -143,6 +157,6 @@
     <div class="spinner"></div>
     <div class="dialog">মনেরবাড়ি</div>
   </app-root>
-<script type="text/javascript" src="runtime.a5b3fd809217d4a562e9.js"></script><script type="text/javascript" src="polyfills.fc27e26f9dfee5960331.js"></script><script type="text/javascript" src="main.e7d273310f59134d965d.js"></script></body>
+<script type="text/javascript" src="runtime.a5b3fd809217d4a562e9.js"></script><script type="text/javascript" src="polyfills.fc27e26f9dfee5960331.js"></script><script type="text/javascript" src="main.9f06308ff88e36d8e131.js"></script></body>
 
 </html>
